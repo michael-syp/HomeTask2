@@ -206,7 +206,7 @@ namespace ConsoleApplication2
         {
             string name = GetName();
             string breed = GetBreed();
-//Свич по видам животных
+
             switch(breed) 
             {
                 case "Lion"  :  anm = new Lion();break;
