@@ -282,8 +282,8 @@ namespace ConsoleApplication2
             {
                 if (listA[i].Helth == 0 & listA[i].Name == name)
                 {
-                    listA.RemoveAt(i--);
                     local = "Животное " + listA[i].Name + " удалено";
+                    listA.RemoveAt(i--);
                 }
             }
             Console.WriteLine(local);
