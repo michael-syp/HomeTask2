@@ -135,7 +135,7 @@ namespace ConsoleApplication2
                 Console.Write(" " + a+" ");
 
             bool res = false;
-            string locVar;
+            string locVar="";
             while (!res)
             {
                 locVar = Console.ReadLine();
