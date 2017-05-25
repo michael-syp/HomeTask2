@@ -13,9 +13,10 @@ namespace ConsoleApplication2
     {             
         static void Main(string[] args)
         {
-//Начальное добавление элемента
+//Обьявление списка животных и зоопарка
             List<Animal> la = new List<Animal>();
             Zoo zoo = new Add(la);
+//Добавление первого животного
             zoo.BeginMsg();
             zoo.Act();
 //Установка таймера
@@ -134,7 +135,7 @@ namespace ConsoleApplication2
                 Console.Write(" " + a+" ");
 
             bool res = false;
-            string locVar = "";
+            string locVar;
             while (!res)
             {
                 locVar = Console.ReadLine();
