@@ -13,7 +13,7 @@ namespace ConsoleApplication2
     {             
         static void Main(string[] args)
         {
-//Начальное добавление елемента
+//Начальное добавление элемента
             List<Animal> la = new List<Animal>();
             Zoo zoo = new Add(la);
             zoo.BeginMsg();
