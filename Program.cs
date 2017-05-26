@@ -13,7 +13,7 @@ namespace ConsoleApplication2
     {             
         static void Main(string[] args)
         {
-//Обьявление списка животных и зоопарка
+//Обьявление и инициализация списка животных и зоопарка
             List<Animal> la = new List<Animal>();
             Zoo zoo = new Add(la);
 //Добавление первого животного
