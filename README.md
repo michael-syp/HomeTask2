@@ -32,7 +32,7 @@ Factory pattern is used.
 Testing
 -------
 
-##### Ви можете приймати учать тестуючи:
+
 
 
 
